@@ -1,0 +1,11 @@
+run:
+Transaction Code Invalid
+Employee Number = 460158335     Relative Key = 65
+Error A Collision
+Employee Number = 14219812     Relative Key = 172
+Error A Collision
+Transaction Code Invalid
+Employee Number = 228152485     Relative Key = 25
+Error A Collision
+File Complete
+BUILD SUCCESSFUL (total time: 0 seconds)
