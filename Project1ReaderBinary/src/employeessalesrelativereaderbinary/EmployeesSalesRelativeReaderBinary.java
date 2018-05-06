@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 
 /**
- *
+
  * @author 55gontarhd03
  */
 public class EmployeesSalesRelativeReaderBinary {
