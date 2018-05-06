@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Registration</h1>
+        <form name="registrationstart" method="get" action="ScheduleObjectGenerator">
+            <table>
+                <tr>
+                    <td>Student Id</td>
+                    <td><input type="text" name="StudentId" value="47"></td>
+                </tr>
+                <tr>
+                    <td>Student First Name</td>
+                    <td><input type="text" name="StudentFirstName" value="Barabara"></td>
+                </tr>
+                <tr>
+                    <td>Student Last Name</td>
+                    <td><input type="text" name="StudentLastName" value="Stanwyk"></td>
+                </tr>
+            </table>
+            <p> Choose one course from Humanities </p>
+            <table>
+                <tr>
+                    <td><input type="radio" name="Humanities" value="ART 101" checked="checked"> ART 101</td>
+                    <td><input type="radio" name="Humanities" value="HST 101"> HST 101</td>
+                    <td><input type="radio" name="Humanities" value="PHL 101"> PHL 101</td>
+                </tr>
+            </table>
+            <p> Choose up to four courses from Computer Sciences</p>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="Computer Science" value="CIS 101" checked="checked"> CIS 101</td>
+                    <td><input type="checkbox" name="Computer Science" value="CIS 102" checked="checked"> CIS 102</td>
+                    <td><input type="checkbox" name="Computer Science" value="CIS 103"> CIS 103</td>
+                    <td><input type="checkbox" name="Computer Science" value="CIS 104"> CIS 104</td>
+                </tr>
+            </table>
+            <p> Choose one course from Mathematics</p>
+            <table>
+                <tr>
+                    <td><input type="radio" name="Mathematics" value="MA 101" checked="checked"> MA 101</td>
+                    <td><input type="radio" name="Mathematics" value="MA 102"> MA 102</td>
+                    <td><input type="radio" name="Mathematics" value="MA 103"> MA 103</td>
+                </tr>
+            </table>
+            <input type="submit" name="schedule" value="Make Schedule">
+        </form>
+    </body>
+</html>
