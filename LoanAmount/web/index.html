@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Loan Amount</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <form method="get" action="LoanAmount">
+            <table>
+                <tr>
+                    <td>Interest Rate</td>
+                    <td><input type="text" name="R" value=".07"></td>
+                    <td>Amount of Time</td>
+                    <td><input type="text" name="T" value="2"></td>
+                </tr>
+                <tr>
+                    <td>Number of Compoundings</td>
+                    <td><input type="text" name="N" value="12"></td>
+                    <td>Principal</td>
+                    <td><input type="text" name="P" value="5000"></td>
+                </tr>
+            </table>
+            <input type="submit" name="Calc" value="Calculate">
+            <input type="reset" name="AReset" value="Reset">
+        </form>
+    </body>
+</html>
