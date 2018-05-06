@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Processor Type</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="get" action="DesktopComputerBilling">
+            <p>
+                Base Price is $115
+            </p>
+            <p>
+                Choose The Processor Type
+            </p>
+            <table>
+                <tr><td><input type="radio" name="Processor" value="I3" checked="checked"> Processor I3</td></tr>
+                <tr><td><input type="radio" name="Processor" value="I5"> Processor I5</td></tr>
+                <tr><td><input type="radio" name="Processor" value="I7"> Processor I7</td></tr>
+            </table>
+            <p>
+                Choose The Drive Size
+            </p>
+            <table border = 2>
+                <tr>
+                    <td><input type="radio" name="Drive" value="HD1" checked="checked"> 1 Terabyte</td>
+                    <td><input type="radio" name="Drive" value="HD2"> 2 Terabytes (Add $50)</td>
+                    <td><input type="radio" name="Drive" value="HD3"> 4 Terabytes (Add $100)</td>
+                </tr>
+            </table>
+            <br/>
+            <input type="submit" name="Calc" value="Make Order">
+        </form>
+    </body>
+</html>
